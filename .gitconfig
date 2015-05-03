@@ -5,7 +5,8 @@
   a = add .
   ba = branch
   c = commit
-  ca = commit
+  ca = commit -a
+  cm = commit -m
   co = checkout
   cob = checkout -b
   com = checkout master
