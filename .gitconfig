@@ -1,8 +1,11 @@
 [user]
   name = spade630
   email = spade6301@gmail.com
+[color]
+  ui = true
 [alias]
   a = add .
+  amend = commit --amend -C HEAD
   ba = branch
   c = commit
   ca = commit -a
@@ -10,10 +13,17 @@
   co = checkout
   cob = checkout -b
   com = checkout master
+  cam = commit --amend
   plom = pull origin master
+  pop = stash pop
   ps = push
   pso = push origin
   psof = push -f origin
+  rbi = rebase -i
+  rbc = rebase --continue
+  rba = reabse --abort
+  s = status
+  st = stash -u
 
   sync = !git checkout master \
     && git pull origin master \
